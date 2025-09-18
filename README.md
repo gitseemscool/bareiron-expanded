@@ -1,14 +1,12 @@
-# bareiron
-Minimalist Minecraft server for memory-restrictive embedded systems.
+# bareiron-expanded
+Minimalist Minecraft server for memory-restrictive  systems. (I have no idea what i'm doing, this is my first time using github and this managed to be my hyperfixation while learning this)
 
-The goal of this project is to enable hosting Minecraft servers on very weak devices, such as the ESP32. The project's priorities are, in order: **memory usage**, **performance**, and **features**. Because of this, compliance with vanilla Minecraft is not guaranteed, nor is it a goal of the project.
+The goal of this project is to enable hosting Minecraft servers on slightly weak devices. The project's priorities are, in order: **features**, **performance**, and **memory usage**. Because of this, compliance with vanilla Minecraft is not guaranteed, but it will try to be close to
 
 - Minecraft version: `1.21.8`
-- Protocol version: `772`
+- Protocol version: `77`
 
-> [!WARNING]
-> Currently, only the vanilla client is officially supported. Issues have been reported when using Fabric or similar.
-
+## Right now, until y'know i actually figure out how to do all this, don't follow the quick start
 ## Quick start
 For PC x86_64 platforms, grab the [latest build binary](https://github.com/p2r3/bareiron/releases/download/latest/bareiron.exe) and run it. The file is a [Cosmopolitan polyglot](https://github.com/jart/cosmopolitan), which means it'll run on Windows, Linux, and possibly Mac, despite the file extension. Note that the server's default settings cannot be reconfigured without compiling from source.
 
